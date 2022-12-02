@@ -2,29 +2,56 @@
 <html>
   <head>
     <title>Personal Details</title>
+    <style>
+    #profile{
+         color:rgb(68,117,119);
+         margin :0px;
+         padding: 0px;
+         
+    }
+    .detail{
+      text-transform: uppercase;
+      color: rgb(68,117,119);
+    }
+    #mother{
+      text-transform: uppercase;
+      color: rgb(68,117,119);
+      padding-left: 6px;
+    }
+    #father{
+      text-transform: uppercase;
+      color: rgb(68,117,119);
+    }
+      
+    body{
+      font-size: large;
+    }
+    </style>
   </head>
   <body>
-    <h3>Profile Photo:</h3>
+    <h3 id="profile">Profile Photo:</h3>
     <img
       src="beautiful-woman-avatar-character-icon-free-vector.jpg"
-      height="250px"
+      height="200px"
       width="250px"
       alt="Personal image"
-    /><br />
-    &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Reshma
-    Chinchakar<br />
-    <p>
-      &nbsp;&nbsp;&nbsp;&nbsp;<strong>Mobile Number:</strong> &nbsp;9358 7623
-      56<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;<b>Email:</b>&nbsp;reshmadeshmane17@gmail.com.<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;<b>Date Of Birth:</b>&nbsp;May-25-1995<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;<strong>Address:</strong>&nbsp;At/p-Isbavi,Pandharpur.
+    />
+    <br>
+  <span style="color:blueviolet; text-transform: uppercase; padding-left: 30px;">Reshma Chinchakar</span>
+    
+    <br>
+    <p >
+      <strong class="detail">Mobile Number:</strong> &nbsp;<b>9358 7623
+        56</b><br /><br>
+      <b class="detail">Email:</b><b>reshmadeshmane17@gmail.com.</b><br /><br>
+      <b class="detail">Date Of Birth:</b>&nbsp;<b>May-25-1995</b><br /><br>
+      <strong class="detail">Address:</strong>&nbsp;<b>At/p-Isbavi,Pandharpur.</b>
       <details>
-        <summary><b>Family Details:</b></summary>
+        <summary class="detail"><b>Family Details:</b></summary>
         <ul>
-          <li><b>Father Name:</b> Rajendra Deshmane</li>
-
-          <li><b>Mother Name:</b>Mina Deshmane</li>
+          <li id="father"><b>Father Name:</b> Rajendra Deshmane</li>
+          <br>
+          <li id="mother"><b>Mother Name:</b> Mina Deshmane</li>
         </ul>
       </details>
     </p>
