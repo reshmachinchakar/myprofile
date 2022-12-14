@@ -18,27 +18,57 @@
 
     }
 
-    nav a {
-      margin-left: 8px;
-      margin-right: 50px;
-      text-shadow: 20px 5px 10px red;
-
+    nav{
+    
+    
+      /* text-shadow: 20px 5px 10px red;
+      */
+      background-color:aqua;
+      width: 1003px;
+      height: 35px;
+     
+      padding-top: 20px;
+      
     }
-
+   nav a{
+   
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
+    text-shadow: 15px 10px 10px maroon;
+   }
+  
    
     footer a i{
-      padding:5px;
-     
+   padding:5px;
+  background-color: black;
   border-radius: 50%;
-  border:3px solid aqua;
+  border: 2px solid black;
   margin: 5px;
-  background-color:aqua;
+ 
+ 
     }
+    
     
   *{
     font-family: 'Josefin Sans', sans-serif;
   }
- 
+ #google{
+  background-color: red;
+  border: 2px solid red;
+ }
+ #insta{
+  background-color: gold;
+  border: 2px solid gold;
+ }
+ #face{
+  background-color: green;
+  border: 2px solid green;
+ }
+a:hover{
+ background-color:red;
+  
+}
 
   </style>
 </head>
@@ -56,8 +86,8 @@
   </header>
   <br>
   <nav>
-    <a href="home.html" target="myFrame">HOME</a>
-    <a href="techStack.html" target="myFrame">TECHNOLOGY STACK</a>
+    <a href="home.html" class="nav" target="myFrame">HOME</a>
+    <a href="techStack.html" class="nav" target="myFrame">TECHNOLOGY STACK</a>
     <a href="education.html" target="myFrame">EDUCATION</a>
     <a href="projectDetails.html" target="myFrame">PROJECT</a>
     <a href="hobbies.html" target="myFrame">HOBBIES</a>
@@ -75,10 +105,10 @@
     <b class="font">Follow me</b>
     <a href="https://www.linkedin.com/feed/?trk=sem-ga_campid.14650114788_asid.127961666300_crid.601257986827_kw.www%20linkedin_d.c_tid.kwd-2246447582_n.g_mt.e_geo.9302243"
       target="_blank">
-      <i class="fa fa-linkedin-square circle-icon" aria-hidden="true"></i></a>
-    <a href="https://www.google.com/" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
-    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-    <a href="https://www.facebook.com/facebook/" target="_blank"><i class="fa fa-facebook-square"
+      <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+    <a href="https://www.google.com/" target="_blank"><i id="google" class="fa fa-google" aria-hidden="true"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i id="insta" class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/facebook/" target="_blank"><i id="face" class="fa fa-facebook-square"
         aria-hidden="true"></i></a>
        
      
